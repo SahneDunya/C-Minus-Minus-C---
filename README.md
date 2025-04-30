@@ -9,3 +9,26 @@ C-- stands for C Minus Minus, which is a version developed by Sahne Dünya that 
 
 5.The purpose of this programming language: The main purpose of the Classic C language is to meet the needs of system programming, while C++ is to provide high performance, efficiency and flexibility, allowing the development of a wide range of applications. The purpose of C-- is different, first of all, the person who developed this programming language did not develop it with the wrong mindset! The main purpose of this language is flexibility! You can actually accept the C-- programming language as the core of the Classic C language. Let me give an example in free software, there is only one official component in the Linux operating system, that is the core, the remaining components are third-party! There is only one official component in the C-- programming language, that is itself, and the fact that it lacks some features will encourage you to use the third party! This means incredible flexibility! You can use the C-- programming language as the core when creating a new programming language! In fact, some components in the classical C and C++ languages ​​also need third parties, such as a package manager, compiler, linker, and an additional external library is needed in the C-- language!
 
+# Target Hello World code
+```
+extern void putc_lowlevel(char c);
+
+int main() {
+
+    putc_lowlevel('H');
+    putc_lowlevel('e');
+    putc_lowlevel('l');
+    putc_lowlevel('l');
+    putc_lowlevel('o');
+    putc_lowlevel(',');
+    putc_lowlevel(' ');
+    putc_lowlevel('W');
+    putc_lowlevel('o');
+    putc_lowlevel('r');
+    putc_lowlevel('l');
+    putc_lowlevel('d');
+    putc_lowlevel('!');
+    putc_lowlevel('\n');
+
+    return 0;
+}
