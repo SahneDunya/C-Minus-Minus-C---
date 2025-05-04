@@ -18,7 +18,7 @@ C-- stands for C Minus Minus, which is a version developed by Sahne Dünya that 
 * Modern language features: no
 * Standard Libray: no
 * Target source file: 62 MB
-* Main programming language: C++
+* Main programming language: C
 
 # Target Hello World code (With External Library)
 ```
